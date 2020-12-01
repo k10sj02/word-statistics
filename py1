@@ -56,19 +56,6 @@ print(word_count(string))
 counts = word_count(string)
 print(counts)
 
-import csv
-
-with open('wordcount_test.csv', 'w', newline='') as csvfile: 
-    wordcountwriter = csv.writer(csvfile)
-    fields = ['Word', 'Frequency'] 
-    wordcountwriter.writerow(fields)
-    rows = [['do', '1'],
-           ['once', '1'],
-           ['or', '4'],
-           ['twice', '1']]
-    for row in rows:
-        wordcountwriter.writerow(row)
-
 # create table of word frequency 
 
 with open('wordcount.csv', 'w', newline='') as csvfile: 
