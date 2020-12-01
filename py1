@@ -37,7 +37,7 @@ for p in punctuations:
 
 print(string)
 
-#create function to count words in text
+# create function to count words in text
 
 def word_count(str):
     counts = dict()
@@ -69,7 +69,7 @@ with open('wordcount_test.csv', 'w', newline='') as csvfile:
     for row in rows:
         wordcountwriter.writerow(row)
 
-#create table of word frequency 
+# create table of word frequency 
 
 with open('wordcount.csv', 'w', newline='') as csvfile: 
     wordcountwriter = csv.writer(csvfile)
