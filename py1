@@ -30,7 +30,6 @@ down a large rabbit-hole under the hedge.'''
 
 
 
-string
 
 punctuations = '''!"#$%&'()*+, -./:;<=>?@[\]^_`{|}~'''
 for p in punctuations:
