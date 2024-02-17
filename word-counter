@@ -1,3 +1,5 @@
+```python
+
 string = '''                   CHAPTER I
 
                       Down the Rabbit-Hole
@@ -68,3 +70,5 @@ with open('wordcount.csv', 'w', newline='') as csvfile:
         wordcountwriter.writerow([word, count])
     for key, value in counts.items():
         print(key, value)
+
+```
