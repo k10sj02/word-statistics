@@ -57,7 +57,7 @@ print(word_count(string))
 counts = word_count(string)
 print(counts)
 
-```python import csv ```
+import csv
 
 # create table of word frequency 
 
